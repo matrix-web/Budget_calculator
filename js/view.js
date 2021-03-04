@@ -94,7 +94,7 @@ const viewController = (() => {
         newHtml = newHtml.replace("%value%", formatNumber(obj.value, type));
 
         document
-        .querySelector(containerElement);
+        .querySelector(containerElement)
         .insertAdjacentHTML("beforeend", newHtml);
     }
 
